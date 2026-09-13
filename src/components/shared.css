@@ -1,0 +1,40 @@
+/* Botões e títulos de seção compartilhados entre componentes */
+
+.button {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: var(--radius-sm);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.button--primary {
+  background-color: var(--color-accent);
+  color: var(--color-text-on-accent);
+}
+
+.button--primary:hover {
+  background-color: var(--color-accent-hover);
+  transform: translateY(-1px);
+}
+
+.section-title {
+  font-family: var(--font-heading);
+  color: var(--color-text);
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 40px;
+  text-align: center;
+}
+
+.section-title--left {
+  text-align: left;
+  color: var(--color-accent);
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+}

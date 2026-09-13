@@ -1,0 +1,13 @@
+.footer {
+  background-color: var(--color-bg-elevated);
+  padding: 24px;
+  text-align: center;
+}
+
+.footer__text {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0;
+}

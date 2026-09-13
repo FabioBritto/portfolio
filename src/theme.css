@@ -1,0 +1,42 @@
+/* ============================================================
+   PALETA DE CORES DO PORTFÓLIO
+   ============================================================
+   Este é o ÚNICO arquivo que você precisa editar para trocar
+   as cores de todo o site. Todos os componentes usam essas
+   variáveis — nada de cor "grudada" no CSS dos componentes.
+
+   Dica para o Cursor: peça algo como
+   "troque a cor --color-accent e --color-accent-hover para tons de azul"
+   e ele vai editar só este arquivo.
+   ============================================================ */
+
+:root {
+  /* Fundo */
+  --color-bg: #2e2910;            /* fundo principal (marrom-oliva escuro) */
+  --color-bg-elevated: #2c5745;   /* fundo de cards, pílula do menu, ícones */
+  --color-bg-elevated-2: #376d56; /* variação mais clara do verde, para hover/alternância */
+
+  /* Cor de destaque (accent) */
+  --color-accent: #eb7d00;        /* laranja principal */
+  --color-accent-hover: #ffa53e;  /* laranja mais claro, usado em hover */
+  --color-accent-soft: #eb7d0040; /* laranja com transparência, para bordas/glow */
+
+  /* Texto */
+  --color-text: #ebe3a7;          /* texto principal (creme) */
+  --color-text-muted: #ebe3a7b3;  /* texto secundário (creme com opacidade) */
+  --color-text-on-accent: #2e2910; /* texto sobre fundo laranja (botões) */
+
+  /* Bordas */
+  --color-border: #eb7d0066;   /* borda sutil laranja (cards, avatar) */
+  --color-border-soft: #ebe3a726; /* borda sutil creme (divisórias) */
+
+  /* Tipografia */
+  --font-heading: 'Poppins', 'Segoe UI', sans-serif;
+  --font-body: 'Inter', 'Segoe UI', sans-serif;
+
+  /* Layout */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --max-width: 1120px;
+}
