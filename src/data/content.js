@@ -100,6 +100,69 @@ export const skills = [
   { name: "Git", icon: gitIcon },
 ];
 
+export const experiences = [
+  {
+    id: 1,
+    role: "Supervisor de TI",
+    company: "Casas da Mamãe",
+    period: "Julho/2026 – Atual",
+    paragraphs: [
+      "Atuo como supervisor de TI em empresa do setor de varejo, liderando a equipe de TI no suporte aos demais usuários da empresa, na construção de relatórios de compra e venda, e no apoio a setores operacionais e estratégicos do negócio.",
+      "Paralelamente à gestão da equipe, trabalho na integração do ERP Innovaro com os sistemas internos da empresa por meio de API REST, e também na integração com a API do relógio de ponto, trazendo mais visibilidade sobre indicadores operacionais para gestores e diretoria. Além disso, atuo na refatoração de sistemas desenvolvidos internamente, aplicando melhorias de segurança, performance, arquitetura e boas práticas de código.",
+    ],
+    stack: [
+      "TypeScript",
+      "Node.js",
+      "React",
+      "SQLite",
+      "API REST",
+      "Integração de Sistemas (ERP)",
+    ],
+  },
+  {
+    id: 2,
+    role: "Desenvolvedor Backend Freelance",
+    company: "Projeto VTalk",
+    period: "Janeiro – Maio/2026",
+    paragraphs: [
+      "Atuei como desenvolvedor Backend freelance em consultoria técnica focada na evolução arquitetural e no fortalecimento da segurança de um sistema de automação e mensageria construído sobre n8n e Supabase.",
+      "Um dos principais entregáveis foi a implementação do fluxo completo de Follow-Up automatizado, com controle transacional e regras de negócio bem estruturadas, além da criação de chamadas RPC para garantir consistência e integridade no banco de dados. Também conduzi uma refatoração estratégica dos workflows do n8n, reestruturando nodes complexos em funções menores e mais coesas, aplicando princípios de Clean Code e separação de responsabilidades — o que trouxe mais previsibilidade, menor acoplamento e maior flexibilidade nos casos de uso.",
+      "No banco de dados, fiz uma análise crítica da modelagem em produção, identificando inconsistências estruturais e propondo melhorias, o que me levou a desenvolver rotinas em PL/pgSQL para contornar problemas de performance e concorrência do n8n, garantindo conformidade com os princípios ACID. A partir dessas descobertas, replanejei a arquitetura geral do projeto (workflow + banco de dados), visando maior escalabilidade e manutenção futura.",
+      "Também identifiquei e mitiguei vulnerabilidades em dependências críticas do sistema, e implementei microsserviços com API em Node.js (Express) — incluindo um serviço para recebimento e conversão de mídia e texto no formato padrão do WhatsApp, retornando o conteúdo em base64 — promovendo uma separação mais clara entre orquestração e domínio. Por fim, produzi documentação técnica detalhada das alterações e decisões arquiteturais, garantindo rastreabilidade e continuidade do projeto.",
+    ],
+    stack: [
+      "JavaScript",
+      "Node.js",
+      "Express",
+      "n8n",
+      "PostgreSQL",
+      "PL/pgSQL",
+      "Supabase",
+      "Docker",
+    ],
+  },
+  {
+    id: 3,
+    role: "Desenvolvedor FullStack",
+    company: "Projeto SmartChat",
+    period: "Junho – Novembro/2025",
+    paragraphs: [
+      "Atuei como desenvolvedor Fullstack no desenvolvimento de um CRM com chatbot de IA para uma startup em modelo SaaS. O sistema permitia que o próprio usuário configurasse agentes de IA personalizados, definindo personalidade, restrições de comportamento e base de conhecimento própria. Fui responsável pelo módulo de RAG (Retrieval-Augmented Generation), integrando a base de conhecimento do usuário ao agente de IA para gerar respostas contextualizadas. Os agentes se conectavam a leads por meio de disparos programados, automatizando o primeiro contato e a qualificação.",
+      "Trabalhei em squad com metodologia Scrum (dailies, plannings e reviews).",
+    ],
+    stack: [
+      "TypeScript",
+      "NestJS",
+      "React",
+      "PostgreSQL",
+      "PgVector",
+      "LangChain.js",
+      "n8n",
+      "Docker",
+    ],
+  },
+];
+
 export const contact = {
   email: "fabio.tritono@gmail.com",
   phone: "(11) 94920-6925",
@@ -111,6 +174,7 @@ export const contact = {
 export const navLinks = [
   { label: "Início", href: "#inicio" },
   { label: "Sobre mim", href: "#sobre" },
+  { label: "Experiência", href: "#experiencia" },
   { label: "Blog", href: "#blog" },
   { label: "Projetos", href: "#projetos" },
   { label: "Habilidades", href: "#habilidades" },
