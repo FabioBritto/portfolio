@@ -26,7 +26,8 @@ export default function Hero() {
         <div className="hero__actions">
           <a
             href={profile.resumeUrl}
-            download
+            target="_blank"
+            rel="noreferrer"
             className="button button--primary"
           >
             Baixar Currículo

@@ -11,7 +11,7 @@ import springBrittoLogo from "../assets/spring-boot-logo.png";
 export const profile = {
   name: "Fabio Britto",
   role: "Desenvolvedor Full Stack",
-  resumeUrl: "/curriculo-fabio-britto.pdf",
+  resumeUrl: "/portfolio/curriculo-fabio-britto.pdf",
   about: [
     "Desenvolvedor Full Stack com experiência no desenvolvimento de aplicações web, especializado em Java e ecossistema Spring para construção de APIs REST robustas, escaláveis e de alto desempenho.",
     "Minha trajetória acadêmica e profissional inclui estudos em desenvolvimento mobile e desktop, embora meu principal foco tenha sido o desenvolvimento web, abrangendo tanto o backend quanto o frontend. Possuo experiência consistente na criação e consumo de APIs REST, integração entre sistemas e desenvolvimento de aplicações utilizando diferentes tecnologias e arquiteturas.",
